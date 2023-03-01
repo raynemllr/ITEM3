@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 400px;
+  padding: 16px;
+  border: 1px dashed hsl(250deg 100% 90%);
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px 3px white, 0px 1px 4px hsl(250deg 100% 40% / 0.25),
+    0px 2px 8px hsl(250deg 100% 40% / 0.125),
+    0px 4px 16px hsl(250deg 100% 40% / 0.05);
+}
+
+.fontLight {
+  font-weight: lighter;
+}

@@ -1,0 +1,49 @@
+.wrapper {
+  max-width: 400px;
+  padding: 16px;
+  border: 1px dashed hsl(250deg 100% 90%);
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px 3px white, 0px 1px 4px hsl(250deg 100% 40% / 0.25),
+    0px 2px 8px hsl(250deg 100% 40% / 0.125),
+    0px 4px 16px hsl(250deg 100% 40% / 0.05);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.field {
+  margin-bottom: 16px;
+  flex: var(--grow);
+  min-width: 100px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input:not([type="checkbox"]),
+textarea,
+select {
+  display: block;
+  width: 100%;
+  outline-offset: 4px;
+  font-size: 1rem;
+  height: 40px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  display: block;
+  margin: 32px auto 0;
+  padding: 8px 32px;
+  outline-offset: 4px;
+}
